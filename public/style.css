@@ -1,0 +1,99 @@
+.avatar{
+    width: 55px;
+}
+.container-avatar, .pub_image .container-avatar{
+    width: 40px;
+    height: 40px;
+    border-radius: 900px;
+    overflow: hidden;
+    margin-left: 20px;
+}
+.profile-avatar img{
+    width: 200px;
+    height: 200px;
+    border-radius: 900px;
+    overflow: hidden;
+    margin-left: 20px; 
+}
+.profile-edit img{
+    width: 200px !important;
+    height: 200px !important;
+    margin-left: 200px !important;
+}
+navbar .container-avatar image,
+.pub_image .container-avatar img{
+    height: 100%;
+}
+
+.pub_image .container-avatar{
+    float:left;
+    margin-right: 10px;
+}
+.pub_image .data-user{
+    font-weight: bold;
+    margin-left: 20px;
+    line-height: 35px;
+}
+.pub_image{
+    margin-bottom: 25px;
+    max-width: 800px;
+}
+
+.pub_image .card-body{
+    padding:0px;
+}
+.image-container img{
+    width: 100%;
+    height: 100%;
+}
+.pub_image .description{
+    padding: 15px;
+}
+
+.pub_image .btn-comments{
+    margin: 15px;
+   
+}
+.likes{
+    float:left;
+    padding:15px;
+    padding-bottom: 0px;
+    padding-top: 0px;
+}
+.likes img{
+    width: 40px;
+}
+
+
+/* Estilos para el contenedor de paginación */
+.pagination {
+    display: flex;
+    justify-content: center; /* Centrar las flechas horizontalmente */
+    margin-top: 20px; /* Ajusta según sea necesario */
+}
+
+/* Estilo para las flechas de paginación */
+.pagination li a,
+.pagination li span {
+    font-size: 14px; /* Tamaño de fuente personalizado */
+    padding: 5px 10px; /* Ajusta el espaciado interno según sea necesario */
+}
+
+/* Estilo para el enlace activo */
+.pagination li.active span {
+    background-color: #007bff; /* Color de fondo para la página activa */
+    color: #fff; /* Color del texto para la página activa */
+}
+
+/* Estilo para el enlace hover */
+.pagination li:not(.active) a:hover {
+    background-color: #f0f0f0; /* Color de fondo al pasar el ratón */
+}
+
+.pub_image .pub_image_detail .content .nickname{
+    color: gray;
+}
+
+.number_likes {
+    font-size: 12px;
+}
